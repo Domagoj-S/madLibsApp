@@ -21,6 +21,7 @@ window.onload = () => {
   for (let i = numberOfQuestions -1; i >= 0; i--) {
     
     console.log(i);
+    console.log("What question (of questionArray) is accessed (using questionCounter):");
     console.log(questionArray[questionCounter] + `... (${numberOfQuestions} questions left)`);
     userInputs.push(prompt(questionArray[questionCounter] + `... (${numberOfQuestions -1} questions left)`));
     console.log(userInputs);
@@ -41,4 +42,3 @@ window.onload = () => {
   console.log(originalStory);
   document.write(originalStory);
 };
-
