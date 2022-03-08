@@ -32,7 +32,7 @@ window.onload = () => {
   }
 
   // The modified story
-  let originalStory = `<p>In ${userInputs[0]}, traveller extrodinaire ${userInputs[1]} found themselves at ${userInputs[2]} when they met an old schoolmate from  ${userInputs[3]}. Well, as they were talking a hole opened up in the ground and swallowed them whole! That was the end of ${userInputs[1]} and their friend!"</p>`
+  let originalStory = `<h1>In ${userInputs[0]}, traveller extrodinaire ${userInputs[1]} found themselves at ${userInputs[2]} when they met an old schoolmate from  ${userInputs[3]}. Well, as they were talking a hole opened up in the ground and swallowed them whole! That was the end of ${userInputs[1]} and their friend!"</h1>`
   console.log(originalStory);
 
  
